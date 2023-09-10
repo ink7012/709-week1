@@ -8,23 +8,28 @@ public class SecondConvert {
         Scanner in = new Scanner(System.in);
         int hours;
         int minutes;
-        int seconds;
         int userInput;
+        int remainingSeconds;
 
         System.out.println("How many second would you like to convert?");
 
         userInput = in.nextInt();
+        remainingSeconds = in.nextInt();
 
-        hours = userInput / 3600;
+        hours = remainingSeconds / 3600;
+        remainingSeconds = remainingSeconds % 3600;
+
+        minutes = remainingSeconds / 60;
+        remainingSeconds = remainingSeconds % 60;
+
         
-        System.out.println(hours);
+        
+        System.out.printf("% seconds = % hours, % minutes, and % seconds \n", userInput, hours, minutes, remainingSeconds);
+
+
+
     }
 }
-
-
-
-
-
 
 /*Exercise 3  
 Write a program that converts a total number of seconds to hours, minutes, and seconds. 
