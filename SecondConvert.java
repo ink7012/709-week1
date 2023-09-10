@@ -13,7 +13,7 @@ public class SecondConvert {
 
         System.out.println("How many second would you like to convert?");
 
-        int userInput = in.nextInt();
+        userInput = in.nextInt();
 
         hours = userInput / 3600;
         
