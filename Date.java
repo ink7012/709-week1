@@ -18,8 +18,8 @@ public class Date
     year = 2023;
 
     System.out.println("American format:");
-    System.out.println(day + ", " + month + " " + date + ", " +         year);
+    System.out.println(day + ", " + month + " " + date + ", " + year);
     System.out.println("European format:");
-    System.out.println(day + " " + date + " " + month + " " +           year);
+    System.out.println(day + " " + date + " " + month + " " + year);
   }
 }
