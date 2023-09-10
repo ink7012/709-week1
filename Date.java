@@ -12,9 +12,9 @@ public class Date
     int year;
 
     //initializing variables
-    day = "Wednesday";
-    date = 26;
-    month = "January";
+    day = "Sunday";
+    date = 10;
+    month = "September";
     year = 2023;
 
     System.out.println("American format:");
